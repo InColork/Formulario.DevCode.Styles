@@ -1,0 +1,77 @@
+*{
+    margin: 10px;
+    background-color: rgb(159, 145, 207);
+    color: azure;
+    font-family: 'Nunito', sans-serif;
+    box-sizing: border-box;
+
+}
+form{
+    background-color: rgb(42, 26, 100);
+    border: 5px dashed black;
+    border-radius: 15px;
+    padding: 20px;
+    position: relative;
+}
+legend{
+    background-color: rgb(42, 26, 100);
+    font-size: 24px;
+    margin-bottom: 0px;
+}
+h3{
+    background-color: rgb(42, 26, 100);
+    font-size: 14px;
+    margin-bottom: 0px;
+    margin-top: 20px;
+}
+label{
+    display: block;
+    background-color: rgb(42, 26, 100);
+}
+input{
+    background-color: rgb(182, 203, 204);
+    color: black;
+    border: 3px solid rgb(0, 0, 0);
+    border-radius: 5px;
+    height: 30px;
+    width: 180px;
+    padding-left: 10px;
+    margin-bottom: -10px;
+}
+textarea{
+    background-color: rgb(182, 203, 204);
+    display: block;
+    border: 3px solid rgb(0, 0, 0);
+    border-radius: 5px;
+    width: 100vh;
+    height: 20vh;
+    padding-left: 10px;
+    margin-bottom: 20px;
+    padding-top: 10px;
+}
+button{
+    background-color: rgb(29, 233, 223);
+    color: rgb(128, 45, 123);
+    border: none;
+    border-radius: 10px;
+    width: 250px;
+    height: 40px;
+    cursor: pointer;
+}
+.inline{
+    font-size: 14px;
+    display: inline;
+    margin: -10px -70px 0px -80px;
+}
+.olhos{
+    height: 20px;
+    width: 20px;
+    border: none;
+    padding: 0px;
+}
+.foto{
+    height: 20px;
+    width: 110px;
+    border: none;
+    padding: 0px;
+}

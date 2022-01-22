@@ -1,0 +1,75 @@
+<!DOCTYPE html>
+<html lang="pt-br">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link href="styles.css" rel="stylesheet">
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+<link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+<link href="https://fonts.googleapis.com/css2?family=Montserrat:wght@100;400;700&family=Nunito:wght@200;400;700&display=swap" rel="stylesheet">
+    <title>Desafio formulario</title>
+</head>
+<body>
+    <form method="post">
+            <legend>Cadastro</legend>
+        <label><h3>Nome</h3>
+            <input name="Nome" type="text" required autocomplete="username" placeholder="Joãozinho...">
+        </label>
+
+        <label><h3>Email</h3>
+            <input name="Email" type="email" required placeholder="joãozinho@gmail.com...">
+        </label>
+
+        <label><h3>Idade</h3>
+            <input name="Idade" type="number" min="12" max="120" required placeholder="min.12">
+        </label>
+
+        <label><h3>Data de Nacimento</h3>
+            <input name="Data" type="date" required>
+        </label>
+
+        <label><h3>Onde você possui conta?</h3></label>
+            <input type="checkbox">
+            <label class="inline">Instagram</label>
+            <input type="checkbox">
+            <label class="inline">Facebook</label>
+            <input type="checkbox">
+            <label class="inline">Youtube</label>
+
+        <label><h3>Sexo </h3></label>
+            <input type="radio" name="base" value="masculino">
+            <label class="inline">Masculino</label>
+            <input type="radio" name="base" value="feminino" required>
+            <label class="inline">Feminino</label>
+
+        <label><h3>Cor dos olhos</h3>
+            <input class="olhos" type="color" required>
+        </label>
+
+        <label><h3>Biografia</h3>
+            <textarea placeholder="Escreva Mais Sobre Você..."></textarea>
+        </label>
+
+        <label><h3>Foto do perfil</h3>
+            <input class="foto" type="file" accept="image/*" required>
+        </label>
+
+        <label><h3>Telefone</h3>
+            <input type="tel" required placeholder="(55) 55 55555-5555">
+        </label>
+
+        <label><h3>Link do Perfil do Facebook</h3>
+            <input type="url" placeholder="https://www.facebook...">
+        </label>
+
+        <label><h3>Senha</h3>
+            <input type="password" min="6" max="8" required placeholder="vai de você">
+        </label>
+
+            <button type="reset">Limpar</button>
+            <button type="submit">Enviar Dados</button>
+    </form>
+    
+</body>
+</html>
